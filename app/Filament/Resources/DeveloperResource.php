@@ -36,6 +36,10 @@ class DeveloperResource extends Resource
                     ->label('Jurusan')
                     ->required()
                     ->maxLength(255),
+                TextInput::make('peran')
+                    ->label('Peran')
+                    ->required()
+                    ->maxLength(255),
                 TextInput::make('prodi')
                     ->label('Program Studi')
                     ->required()
